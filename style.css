@@ -73,24 +73,29 @@ ul {
   font-size: 4em;
 }
 
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
 @media (max-width: 960px) {
   .container {
-    width: 700px;
+    width: 550px;
     margin: 30px auto;
     background-color: red;
   }
 }
 @media (max-width: 720px) {
   .container {
-    width: 500px;
-    margin: 30px auto;
+    width: 400px;
+    margin: 25px auto;
     background-color: green;
   }
 }
 @media (max-width: 540px) {
   .container {
     width: 300px;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: blue;
   }
 }
