@@ -1,9 +1,12 @@
 h1 {
   font-family: 'Gochi Hand', cursive;
+  font-size: 3em;
+  margin: 10px 0;
 }
 
 h2, p, a {
   font-family: 'Varela Round', sans-serif;
+  margin: 18px;
 }
 
 h3 {
@@ -12,30 +15,33 @@ h3 {
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #74b9ff;
 }
 
 div {
   display: block;
 }
 .card {
-  background-color: #fff;
+  background-color: #dfe6e9;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
   text-decoration: none;
+  color: #2d3436;
 }
 
 #round-image {
+  width: 200px;
   border-radius: 50%;
-  border: dashed blue;
-  border-width: 5px;
+  border: solid #b2bec3;
+  border-width: 10px;
 }
 
 .image-width {
-  width: 250px;
+  width: 200px;
+  margin-right: 20px;
 }
 
 a {
@@ -50,11 +56,13 @@ ul {
 }
 
 #button-blue {
-  background-color: blue;
+  background-color: #00cec9;
   padding: 15px;
   color: white;
   border-radius: 6px;
   line-height: 1.8em;
+  padding-top: 15px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 #button-blue:hover {
@@ -63,7 +71,8 @@ ul {
 
 .inline-block > li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
+  margin: 0;
 }
 .inline-block {
   padding-left: 0px;
@@ -71,6 +80,7 @@ ul {
 
 .big-icons {
   font-size: 4em;
+  color: #b2bec3;
 }
 
 .container {
