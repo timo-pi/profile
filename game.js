@@ -25,14 +25,14 @@ var gameOptions = {
 }
 
 window.onload = function() {
-    game = new Phaser.Game(320, 480, Phaser.CANVAS);
+    game = new Phaser.Game(220, 280, Phaser.CANVAS);
     game.state.add("Play", play, true);
 }
 
 var play = function(){}
 play.prototype = {
     preload:function(){
-        game.load.image("bird", "bird.png");
+        game.load.image("bird", "mm.png");
         game.load.image("pipe", "pipe.png");
     },
     create:function(){
@@ -49,7 +49,7 @@ play.prototype = {
             font:"bold 16px Arial"
         });
         this.updateScore(0);
-        this.bird = game.add.sprite(80, 240, "bird");
+        this.bird = game.add.sprite(80, 140, "bird");
         this.bird.anchor.set(0.5);
         game.physics.arcade.enable(this.bird);
         this.bird.body.gravity.y = gameOptions.birdGravity;
